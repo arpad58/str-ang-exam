@@ -42,5 +42,9 @@ export class HeroService {
 
   ];
 
+  getAllHeroes(): Hero[] {
+    return this.list;
+   }
+
   constructor() { }
 }
